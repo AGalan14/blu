@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",              // Versión de JavaScript a la que se compilará.
+    "module": "commonjs",             // Sistema de módulos a usar.
+    "rootDir": "./src",               // Directorio raíz donde está tu código fuente.
+    "outDir": "./dist",               // Directorio donde se guardará el código compilado.
+    "esModuleInterop": true,          // Permite una mejor compatibilidad entre módulos.
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                   // Habilita todas las comprobaciones estrictas de tipos.
+    "skipLibCheck": true              // Evita la comprobación de tipos en los archivos de declaración.
+  }
+}
